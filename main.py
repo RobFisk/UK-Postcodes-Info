@@ -25,7 +25,6 @@ def get_outcode_county(data: pd.DataFrame, row_id: int = 1):
         # county_name - need the mode
         # local_authorithy_name - need the mode
         # country_name - just take the first one
-        # postcode_1 - gives an example postcode
     except Exception as e:
         print("API Request failed for",outcode)
         print(Exception)
